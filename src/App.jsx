@@ -21,20 +21,20 @@ function App() {
         <p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.adafruit.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+           More About Embedded Systems
           </a>
           {' | '}
           <a
             className="App-link"
-            href="https://vitejs.dev/guide/features.html"
+            href="mailto:adam@adammathewvaughn.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs
+            Contact Us 
           </a>
         </p>
       </header>
