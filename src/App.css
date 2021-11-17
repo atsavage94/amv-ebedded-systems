@@ -11,7 +11,7 @@ code {
   color: #9B2330;
 }
 
-.App-header {
+.App-body {
   font-size: calc(10px + 2vmin);
   background-color: white;
   min-height: 100vh;
