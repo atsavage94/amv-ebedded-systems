@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h4>"Automating a better tomorrow"</h4>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
+      <img src={logo} className="App-logo" alt="logo" />
+      <h4>"Automating a better tomorrow"</h4>
+      <p>
+      <iframe width="560" height="420" src="https://www.youtube.com/watch?v=J4lrDOR73cM" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+      </p>
         <p>
           Run <code> npm init vite@latest</code> in your command line to try ViteJS<img src={icon} className="App-ico" alt="ico" height="20px" width="20px"/>.
         </p>
