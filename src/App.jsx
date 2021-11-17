@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.png'
+import icon from './favicon.svg'
 import './App.css'
 
 function App() {
@@ -9,23 +10,23 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>Automating today for a better world tomorrow</h2>
+        <h4>"Automating a better tomorrow"</h4>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
         </p>
         <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
+          Run <code> npm init vite@latest</code> in your command line to try ViteJS<img src={icon} className="App-ico" alt="ico" height="20px" width="20px"/>.
         </p>
         <p>
           <a
             className="App-link"
-            href="https://www.adafruit.com/"
+            href="https://blog.adafruit.com/2020/10/16/building-embedded-linux-systems-embedded-linux-ee-jaydcarlson/"
             target="_blank"
             rel="noopener noreferrer"
           >
-           More About Embedded Systems
+           About Embedded Systems
           </a>
           {' | '}
           <a
