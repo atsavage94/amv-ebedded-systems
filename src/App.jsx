@@ -16,9 +16,7 @@ function App() {
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
       </p>
-        <p>
-          Run <code> npm init vite@latest</code> in your command line to try ViteJS<img src={icon} className="App-ico" alt="ico" height="20px" width="20px"/>.
-        </p>
+        
         <p>
           <a
             className="App-link"
