@@ -39,13 +39,14 @@ button {
   font-size: calc(10px + 2vmin);
 }
 
-#footer {
-  position: relative;
+#Footer {
+  display: flex;
+  position: bottom;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 5rem;
   background-color: #19336E;
-  color: white;
+  color: #9B2330;
   text-align: center;
   line-height: 50px;
 }

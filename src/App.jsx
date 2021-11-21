@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import logo from './logo.png'
 import icon from './favicon.svg'
+import Footer from './Footer'
 import './App.css'
 
 function App() {
@@ -15,10 +16,7 @@ function App() {
       <iframe width="560" height="315" src="https://www.youtube.com/embed/J4lrDOR73cM" title="YouTube video player"
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
-      </p>
-        
-        <p>
-          <a
+             <a
             className="App-link"
             href="https://blog.adafruit.com/2020/10/16/building-embedded-linux-systems-embedded-linux-ee-jaydcarlson/"
             target="_blank"
@@ -35,10 +33,11 @@ function App() {
           >
             Contact Us 
           </a>
-        </p>
-      </body>
-    </div>
-  )
+          </p>
+          </body>
+          <div id="Footer"></div>
+          </div>
+          )
 }
 
 export default App
