@@ -30,14 +30,26 @@ function App() {
           >
             About Embedded Systems
           </a>
-          {' | '}
           <a
             className="App-link"
             href="mailto:adam@adammathewvaughn.com"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Contact Us
+          > Email  
+          </a>
+          <a
+            className="App-link"
+            href="sms:+12052596791"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Text
+          </a>
+          <a
+            className="App-link"
+            href="tel:+12052596791"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Call
           </a>
         </p>
       </body>
