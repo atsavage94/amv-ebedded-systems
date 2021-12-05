@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.png'
 import icon from './favicon.svg'
-import Footer from './Footer'
 import './App.css'
 import TagManager from 'react-gtm-module'
 
