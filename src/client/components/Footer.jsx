@@ -1,6 +1,4 @@
 import React from "react";
-
-
 import icon from "./favicon.png";
 
 const Footer = () => {
