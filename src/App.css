@@ -5,6 +5,7 @@
 .App-logo {
   height: auto;
   pointer-events: none;
+  width:100%;
 }
 
 code {
@@ -14,14 +15,9 @@ code {
 .App-body {
   font-size: calc(10px + 2vmin);
   background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: none;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: #19336E;
-  position: center;
+  width:100%;
 }
 
 .App-link {
