@@ -17,7 +17,7 @@ code {
   background-color: white;
   align-items: center;
   color: #19336E;
-  position: center;
+  width:100%;
 }
 
 .App-link {
