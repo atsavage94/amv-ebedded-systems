@@ -19,8 +19,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h4>"Automating a better tomorrow"</h4>
         <p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/J4lrDOR73cM" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          <iframe style="width:100%;max-width:560px;height:315px;display:inline-block;" src="https://www.youtube.com/embed/J4lrDOR73cM" title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
           <a
             className="App-link"
