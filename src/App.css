@@ -36,7 +36,6 @@ button {
   justify-content: center;
   color: #19336E;
 }
-
 #Footer>p {
   display: flex;
   flex-wrap: none;
@@ -47,4 +46,11 @@ button {
     background-color: #19336E;
     color: #9B2330;
 padding-left: 25%;
+  }
+
+.Footer {
+    background-color:cornflowerblue;
+    color: white;
+    font-size:18px;
+    padding-left: 25%;
   }
