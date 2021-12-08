@@ -3,7 +3,7 @@ import { useState } from 'react';
 // import icon from './public/favicon.svg';
 import {
   Footer,
-} from './src/components';
+} from './components';
 import TagManager from 'react-gtm-module';
 
 const tagManagerArgs = {
