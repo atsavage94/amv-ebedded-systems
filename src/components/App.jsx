@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from './src/logo.png'
+// import logo from './src/logo.png'
 import icon from './public/favicon.svg'
 import {
   Footer,
