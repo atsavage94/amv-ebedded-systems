@@ -1,23 +1,16 @@
 import React from "react";
-
-
-import icon from "./favicon.png";
+import "./Footer.css"
 
 const Footer = () => {
 return (
 <div id="Footer">
-
-<p>
-    Run <code> npm init vite@latest</code> in your command line to try ViteJS<img src={icon} className="App-ico" alt="ico" height="20px" width="20px" />
-</p>
-
+    <footer className="adam-foot">
+    <p>
+        Made With Love by <a href="https://www.linkedin.com/in/vaughn-embedded-systems/" target="_blank">Adam M. Vaughn</a> | Embedded Systems In Birmingham, AL
+    </p>
+    </footer>
 </div>
-
-
 )
-
-
-
 };
 
 export default Footer;

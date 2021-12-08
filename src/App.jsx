@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import logo from './logo.png'
-import icon from './favicon.svg'
-import Footer from './Footer'
 import './App.css'
 import TagManager from 'react-gtm-module'
 
@@ -15,9 +13,18 @@ function App() {
 
   return (
     <div className="App">
+      <header className="header">
+        <div className=""></div>
+        <div className=""></div>
+        <img src={logo} className="App-logo" alt="logo" />  
+      </header>
       <body className="App-body">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h4>"Automating a better tomorrow"</h4>
+<div className="amv-logo">
+    <p className="name">Adam Mathew Vaughn</p>
+    <hr />
+    <p className="brand">Embedded<br />Systems</p>
+</div>
+    <h4>"Automating a better tomorrow"</h4>
         <p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/J4lrDOR73cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <a
@@ -51,12 +58,8 @@ function App() {
           </a>
         </p>
       </body>
-      <div id="Footer"><p>Run <code> npm init vite@latest</code> in your command line to try ViteJS<img src={icon} className="App-ico" alt="ico" height="20px" width="20px" />
-      </p>
-      </div>
     </div>
   )
 }
-
 
 export default App
