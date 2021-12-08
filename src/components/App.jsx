@@ -1,6 +1,6 @@
 import { useState } from 'react'
 // import logo from './src/logo.png'
-import icon from './public/favicon.svg'
+// import icon from './public/favicon.svg'
 import {
   Footer,
 } from './components'
