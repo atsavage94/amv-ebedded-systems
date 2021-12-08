@@ -11,5 +11,6 @@ ReactDOM.render(
     <App />
     <Footer />
   </React.StrictMode>,
+
   document.getElementById('root')
-)
+);
