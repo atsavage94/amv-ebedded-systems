@@ -1,10 +1,10 @@
-import { useState } from 'react'
-// import logo from './src/logo.png'
-// import icon from './public/favicon.svg'
+import { useState } from 'react';
+// import logo from './src/logo.png';
+// import icon from './public/favicon.svg';
 import {
   Footer,
-} from './components'
-import TagManager from 'react-gtm-module'
+} from './src/components';
+import TagManager from 'react-gtm-module';
 
 const tagManagerArgs = {
   gtmId: 'GTM-MW7CTZK'
