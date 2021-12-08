@@ -3,7 +3,6 @@ import logo from './logo.png'
 import icon from './favicon.svg'
 import {
   Footer,
-  App,
 } from './components'
 import TagManager from 'react-gtm-module'
 
