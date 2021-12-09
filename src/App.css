@@ -89,14 +89,7 @@ padding-left: 25%;
 .amv-logo {
   display:none;
 }
-.name {
-      font-weight: 800;
-      font-size: 34px;
-}
-.product {
-      margin-top: -17px;
-      font-size: 43px;
-}
+
 hr {
       width: 198px;
       background-color: crimson;

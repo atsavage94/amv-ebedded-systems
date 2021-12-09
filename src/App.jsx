@@ -2,7 +2,7 @@ import { useState } from 'react'
 import logo from './logo.png'
 import './App.css'
 import TagManager from 'react-gtm-module'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const i = <FontAwesomeIcon icon={faCoffee} />
@@ -31,7 +31,8 @@ function App() {
         <p> I'm Adam and I'm a full-stack web developer and embedded systems engineer. I'm currently working to combine my recent full-stack web development education with my background in construction and my love for hardware engineering. 
             Embedded systems is the natural arris of the adjacent technological disciplines, and I'm excited to begin my path in the field. The juxtaposition of hardware and software has never been more at the forefront of our lives with the prevalence of the IoT and micro-controlled embedded systems via Raspberry Pi and Arduino.
              I feel like I have a chance to contribute to a better world through embedded systems and home automation, and I'm eagerly working towards the opportunity to do so.</p>
-          <div className="LinksDiv"><a
+          <div className="LinksDiv">
+          <a
             className="App-link"
             href="https://www.linkedin.com/in/vaughn-embedded-systems"
             target="_blank"
@@ -59,9 +60,10 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >Call
-          </a></div>
-      </body>
-    </div>
+          </a>
+          </div>
+          </body>
+          </div>
   )
 }
 
